@@ -142,5 +142,6 @@ void slcCalcGui::onCalcButtonClicked()
 
 slcCalcGui::~slcCalcGui()
 {
-
+    delete m_Ui;
+    m_Ui = nullptr;
 }
